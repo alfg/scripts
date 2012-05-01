@@ -58,7 +58,7 @@ echo "set tabstop=4" >> .vimrc
 echo "set shiftwidth=4" >> .vimrc
 echo "set expandtab" >> .vimrc
 echo "nmap <Space>d :NERDTreeToggle<CR>" >> .vimrc
-echo "nmap <Leader>d :NERDTreeToggle<CR> >> .vimrc
+echo "nmap <Leader>d :NERDTreeToggle<CR>" >> .vimrc
 
 #More to be added
 
