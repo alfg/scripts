@@ -52,6 +52,12 @@ cd ~
 echo ":colorscheme aldmeris" >> .vimrc
 sleep 1
 
+#Adding indenting configs
+echo "set smartindent" >> .vimrc
+echo "set tabstop=4" >> .vimrc
+echo "set shiftwidth=4" >> .vimrc
+echo "set expandtab" >> .vimrc
+
 #More to be added
 
 echo "Finished"
