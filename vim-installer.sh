@@ -49,7 +49,7 @@ echo "Installing Aldmeris theme..."
 cd ~/.vim/bundle
 git clone git://github.com/veloce/vim-aldmeris.git
 cd ~
-echo ":colorscheme aldmeris" >> .vimrc
+echo ":colorscheme slate" >> .vimrc
 sleep 1
 
 #Adding indenting configs
