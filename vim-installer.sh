@@ -52,7 +52,29 @@ cd ~
 echo ":colorscheme slate" >> .vimrc
 sleep 1
 
-#Adding indenting configs
+#Install Snipmate
+echo "Installing Snipmate..."
+cd ~/.vim/bundle
+git clone https://github.com/msanders/snipmate.vim.git
+cd ~
+sleep 1
+
+#Install minibufexpl
+echo "Installing Minibufexpl..."
+cd ~/.vim/bundle
+git clone https://github.com/sontek/minibufexpl.vim.git
+cd ~
+sleep 1
+
+#Install vim-session
+echo "Installing vim-session..."
+cd ~/.vim/bundle
+git clone https://github.com/xolox/vim-session.git
+cd ~
+sleep 1
+
+
+#Adding extra configs
 echo "set smartindent" >> .vimrc
 echo "set tabstop=4" >> .vimrc
 echo "set shiftwidth=4" >> .vimrc
