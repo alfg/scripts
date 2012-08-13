@@ -81,6 +81,7 @@ echo "set shiftwidth=4" >> .vimrc
 echo "set expandtab" >> .vimrc
 echo "nmap <Space>d :NERDTreeToggle<CR>" >> .vimrc
 echo "nmap <Leader>d :NERDTreeToggle<CR>" >> .vimrc
+echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
 
 #More to be added
 
