@@ -66,10 +66,10 @@ git clone https://github.com/sontek/minibufexpl.vim.git
 cd ~
 sleep 1
 
-#Install vim-session
+#Install sessionman.vim
 echo "Installing vim-session..."
 cd ~/.vim/bundle
-git clone https://github.com/xolox/vim-session.git
+git clone https://github.com/vim-scripts/sessionman.vim.git
 cd ~
 sleep 1
 
