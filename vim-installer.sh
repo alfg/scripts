@@ -67,9 +67,16 @@ cd ~
 sleep 1
 
 #Install sessionman.vim
-echo "Installing vim-session..."
+echo "Installing sessionman.vim..."
 cd ~/.vim/bundle
 git clone https://github.com/vim-scripts/sessionman.vim.git
+cd ~
+sleep 1
+
+#Install TaskList.vim
+echo "Installing TaskList.vim..."
+cd ~/.vim/bundle
+git clone https://github.com/vim-scripts/TaskList.vim.git
 cd ~
 sleep 1
 
@@ -81,6 +88,8 @@ echo "set shiftwidth=4" >> .vimrc
 echo "set expandtab" >> .vimrc
 echo "nmap <Space>d :NERDTreeToggle<CR>" >> .vimrc
 echo "nmap <Leader>d :NERDTreeToggle<CR>" >> .vimrc
+echo "map T :TaskList<CR>" >> .vimrc
+echo "map P :TlistToggle<CR> "Ctags" >> .vimrc
 echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
 
 #More to be added
