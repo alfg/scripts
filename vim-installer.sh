@@ -80,6 +80,15 @@ git clone https://github.com/vim-scripts/TaskList.vim.git
 cd ~
 sleep 1
 
+#Install vim-jsbeautify
+echo "Installing jsbeautify..."
+cd ~/.vim/bundle
+git clone https://github.com/maksimr/vim-jsbeautify.git
+cd ~/.vim/bundle/vim-jsbeautify
+git submodule update --init --recursive
+cd ~
+sleep 1
+
 
 #Adding extra configs
 echo "set smartindent" >> .vimrc
