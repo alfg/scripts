@@ -49,8 +49,57 @@ echo "Installing Aldmeris theme..."
 cd ~/.vim/bundle
 git clone git://github.com/veloce/vim-aldmeris.git
 cd ~
-echo ":colorscheme aldmeris" >> .vimrc
+echo ":colorscheme slate" >> .vimrc
 sleep 1
+
+#Install Snipmate
+echo "Installing Snipmate..."
+cd ~/.vim/bundle
+git clone https://github.com/msanders/snipmate.vim.git
+cd ~
+sleep 1
+
+#Install minibufexpl
+echo "Installing Minibufexpl..."
+cd ~/.vim/bundle
+git clone https://github.com/sontek/minibufexpl.vim.git
+cd ~
+sleep 1
+
+#Install sessionman.vim
+echo "Installing sessionman.vim..."
+cd ~/.vim/bundle
+git clone https://github.com/vim-scripts/sessionman.vim.git
+cd ~
+sleep 1
+
+#Install TaskList.vim
+echo "Installing TaskList.vim..."
+cd ~/.vim/bundle
+git clone https://github.com/vim-scripts/TaskList.vim.git
+cd ~
+sleep 1
+
+#Install vim-jsbeautify
+echo "Installing jsbeautify..."
+cd ~/.vim/bundle
+git clone https://github.com/maksimr/vim-jsbeautify.git
+cd ~/.vim/bundle/vim-jsbeautify
+git submodule update --init --recursive
+cd ~
+sleep 1
+
+
+#Adding extra configs
+echo "set smartindent" >> .vimrc
+echo "set tabstop=4" >> .vimrc
+echo "set shiftwidth=4" >> .vimrc
+echo "set expandtab" >> .vimrc
+echo "nmap <Space>d :NERDTreeToggle<CR>" >> .vimrc
+echo "nmap <Leader>d :NERDTreeToggle<CR>" >> .vimrc
+echo "map T :TaskList<CR>" >> .vimrc
+echo "map P :TlistToggle<CR> "Ctags" >> .vimrc
+echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
 
 #More to be added
 
