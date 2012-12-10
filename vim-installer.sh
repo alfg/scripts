@@ -89,6 +89,13 @@ git submodule update --init --recursive
 cd ~
 sleep 1
 
+#Install vim-markdown.vim
+echo "Installing vim-markdown.vim..."
+cd ~/.vim/bundle
+git clone https://github.com/plasticboy/vim-markdown.git
+cd ~
+sleep 1
+
 
 #Adding extra configs
 echo "set smartindent" >> .vimrc
