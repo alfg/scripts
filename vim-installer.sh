@@ -96,6 +96,13 @@ git clone https://github.com/plasticboy/vim-markdown.git
 cd ~
 sleep 1
 
+#Install Mustache.vim
+echo "Installing mustache.vim..."
+cd ~/.vim/bundle
+git clone https://github.com/juvenn/mustache.vim.git
+cd ~
+sleep 1
+
 
 #Adding extra configs
 echo "set smartindent" >> .vimrc
