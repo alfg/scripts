@@ -103,6 +103,13 @@ git clone https://github.com/juvenn/mustache.vim.git
 cd ~
 sleep 1
 
+#Install vim-less
+echo "Installing vim-less..."
+cd ~/.vim/bundle
+git clone https://github.com/groenewege/vim-less.git
+cd ~
+sleep 1
+
 
 #Adding extra configs
 echo "set smartindent" >> .vimrc
