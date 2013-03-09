@@ -1,0 +1,11 @@
+worlds["QwertyCraft"] = "/home/alf/http/qwertycraft.com/world"
+
+renders["normal"] = {
+    "world": "QwertyCraft",
+    "title": "QwertyCraft Map",
+    "imgformat": "jpg",
+    "imgquality": 75
+}
+
+outputdir = "/home/alf/http/qwertycraft.com/map"
+
