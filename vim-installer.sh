@@ -110,6 +110,13 @@ git clone https://github.com/groenewege/vim-less.git
 cd ~
 sleep 1
 
+#Install vim-golang
+echo "Installing vim-golang..."
+cd ~/.vim/bundle
+git clone https://github.com/jnwhiteh/vim-golang.git
+cd ~
+sleep 1
+
 
 #Adding extra configs
 echo "set smartindent" >> .vimrc
